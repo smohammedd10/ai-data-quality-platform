@@ -1,0 +1,28 @@
+{
+  "dataset": "sample_orders",
+  "timestamp": "2025-07-27 18:42:13.327144",
+  "results": [
+    {
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "email",
+          "batch_id": "b63462f63c0ec717e6f324622761b31c"
+        },
+        "meta": {}
+      },
+      "success": true
+    },
+    {
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "column": "order_id",
+          "batch_id": "b63462f63c0ec717e6f324622761b31c"
+        },
+        "meta": {}
+      },
+      "success": true
+    }
+  ]
+}
