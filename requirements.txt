@@ -1,9 +1,7 @@
-great_expectations==0.18.7
 pandas
 openai
-streamlit
-apache-airflow
-pyarrow
-s3fs
 boto3
 pytest
+streamlit
+apache-airflow
+great_expectations==0.18.7
